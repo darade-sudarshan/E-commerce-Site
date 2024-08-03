@@ -50,7 +50,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy Image') {
+        stage('Run Docker Image for testing') {
             steps {
                 script {
                     // Use Jenkins credentials for Docker Hub login
